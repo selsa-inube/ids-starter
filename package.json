@@ -1,8 +1,25 @@
 {
-  "name": "ids-starter",
-  "private": true,
+  "name": "@inubekit/your-component-name",
+  "homepage": "https://inubeds.vercel.app/",
+  "author": "inube",
+  "main": "dist/index.es.js",
+  "keywords": [
+    "inube",
+    "design-system",
+    "react"
+  ],
+  "description": "",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js"
+    }
+  },
+  "files": [
+    "dist/index.es.js"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,7 +27,11 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "auto": "auto",
+    "changelog": "npm run auto changelog",
+    "version": "rm -rf dist && npm run build",
+    "postversion": "git push --follow-tags && npm run auto release"
   },
   "dependencies": {
     "react": "^18.2.0",

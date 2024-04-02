@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    "git-tag",
+    [
+      "npm",
+      {
+        "setRcToken": true,
+        "publishFlags": ["--access", "public"]
+      }
+    ]
+  ],
+  "owner": "REPOSITORY_OWNER",
+  "repo": "REPOSITORY_NAME",
+  "name": "YOUR_NAME",
+  "email": "YOUR_EMAIL"
+}

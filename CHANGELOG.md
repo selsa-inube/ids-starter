@@ -1,3 +1,35 @@
+# v0.1.0 (Wed May 01 2024)
+
+#### 🚀 Enhancement
+
+- update workflow in order to avoid merges with failed builds [#8](https://github.com/selsa-inube/inubekit-starter/pull/8) ([@cmarin001](https://github.com/cmarin001))
+
+#### 🐛 Bug Fix
+
+- ci skip skip ci [#7](https://github.com/selsa-inube/inubekit-starter/pull/7) ([@cmarin001](https://github.com/cmarin001))
+- Add auto publish [#6](https://github.com/selsa-inube/inubekit-starter/pull/6) ([@cmarin001](https://github.com/cmarin001))
+- feat: release script [#4](https://github.com/selsa-inube/inubekit-starter/pull/4) ([@wfercanas](https://github.com/wfercanas))
+- refactor: change @types/styled-components to development dependencies [#3](https://github.com/selsa-inube/inubekit-starter/pull/3) ([@Andresbl123](https://github.com/Andresbl123))
+- Indicate the caveat for the first time release in `README` [#2](https://github.com/selsa-inube/inubekit-starter/pull/2) ([@Andresbl123](https://github.com/Andresbl123))
+- implement the generation of .d.ts files [#1](https://github.com/selsa-inube/inubekit-starter/pull/1) ([@Andresbl123](https://github.com/Andresbl123))
+
+#### ⚠️ Pushed to `main`
+
+- feat: install styled-components types ([@wfercanas](https://github.com/wfercanas))
+- feat: install styled-components ([@wfercanas](https://github.com/wfercanas))
+
+#### 🔩 Dependency Updates
+
+- Update inubekit/starter to storybook v8 [#5](https://github.com/selsa-inube/inubekit-starter/pull/5) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 3
+
+- Andres ([@Andresbl123](https://github.com/Andresbl123))
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+- Fernando Cañas ([@wfercanas](https://github.com/wfercanas))
+
+---
+
 # v0.0.1 (Wed Jan 17 2024)
 
 #### ⚠️ Pushed to `main`
